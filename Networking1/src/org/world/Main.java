@@ -18,7 +18,7 @@ public class Main {
             int ch;
             while((ch = istream.read()) != -1)
             {
-                System.out.println((char) ch);
+                System.out.print((char) ch);
             }
             socket.close();
         }
